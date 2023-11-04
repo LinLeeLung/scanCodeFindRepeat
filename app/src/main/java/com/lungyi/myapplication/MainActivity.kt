@@ -50,13 +50,13 @@ class MainActivity : AppCompatActivity() {
         bind.btn.setOnClickListener()
         {
             addResult()
-
         }
         bind.btnDel.setOnClickListener() {
             delLastOne()
         }
 
     }
+
     private fun clearAll() {
         mydatas.clear()
         bind.tvRepeat.text = ""
