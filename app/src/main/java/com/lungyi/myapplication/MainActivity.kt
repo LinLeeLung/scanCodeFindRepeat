@@ -57,7 +57,6 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-
     private fun clearAll() {
         mydatas.clear()
         bind.tvRepeat.text = ""
@@ -89,7 +88,6 @@ class MainActivity : AppCompatActivity() {
                 }
 
             }
-
             mydatas.add(ScanData(mydatas.size + 1, result))
             bind.rvResult.layoutManager = LinearLayoutManager(this)
             bind.rvResult.adapter = ResultAdapter(context = this, mydatas)
