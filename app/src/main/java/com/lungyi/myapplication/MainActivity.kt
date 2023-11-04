@@ -135,8 +135,6 @@ class MainActivity : AppCompatActivity() {
         bind.scanView.setOnClickListener {
             codeScanner.startPreview()
         }
-
-
     }
 
     override fun onResume() {
